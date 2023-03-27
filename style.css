@@ -18,9 +18,10 @@ font-family: 'Montserrat', sans-serif;
 	display: grid;
 	grid-template-areas:
 	"title title title"
+	"menu menu menu"
 	"rText rText rImage"
 	"lImage lText lText"
-	"nText nText nImage";
+	"hText hText hImage";
 	grid-gap:2vw;
 	margin:5vw;
 }
@@ -30,6 +31,7 @@ font-family: 'Montserrat', sans-serif;
 	margin: 0px;
 	height: 150px;
 	grid-area:title;
+	color: #313853;
 	background-color: #D2E8E4;
 	font-size: 72px;
 	display: flex;
@@ -41,10 +43,35 @@ font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 
+.menuBar {
+	grid-area:menu;
+	background-color: #D2E8E4;
+	width: 100%;
+	height:73px;
+}
+
+.menuButtons {
+	width: 16%;
+	position: center;
+	text-align:center;
+	padding: 21px;
+	font-size: 25px;
+	color: #313853;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	background-color: #D2E8E4;
+}
+
+.menuButtons:hover{
+	background-color: #D17F8C;
+	color: white;
+}
+
 .headings{
 	padding-top:15px;
 	font-family: 'Lobster', cursive;
 	margin:0px;
+	color: #313853;
 	font-size: 35px;
 	display: flex;
 	justify-content: center;
@@ -59,12 +86,148 @@ font-family: 'Montserrat', sans-serif;
 	padding-block-end: 15px;
 	margin:0px;
 	font-size: 20px;
+	color: #313853;
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
 }
 
-.timeout{
+.mhotel{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.mrest{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.brest{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.qrest{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.srest{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.brrest{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.bhotel{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.ferry{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.garden{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.stadium{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.statue{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.shotel{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.brhotel{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.qhotel{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.boroughs{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.nyc{
 	padding: 15px;
 	display: flex;
 	justify-content: center;
@@ -81,7 +244,7 @@ font-family: 'Montserrat', sans-serif;
 	width: 100%;
 	height: 100%;
 }
-.soho{
+.subway{
 	padding: 15px;
 	display: flex;
 	justify-content: center;
@@ -118,10 +281,10 @@ font-family: 'Montserrat', sans-serif;
 	grid-area:lImage;
 }
 
-.neigText{
-	grid-area:nText;
+.hotelText{
+	grid-area:hText;
 }
 
-.neigImg{
-	grid-area:nImage;
+.hotelImg{
+	grid-area:hImage;
 }
